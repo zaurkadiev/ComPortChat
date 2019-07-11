@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="25.0" layoutY="25.0" text=" Программа взаимодействия объектов&#10;
+объектов локальной сети, состоящей из 2-х &#10;
+ПК, соединенных черезинтерфейс&#10;
+RS232C нульмодемным кабелем,&#10;
+и реализующей функцию передачи двоичных&#10;
+файлов. Скорость обмена и параметры&#10;
+CОМ-порта выбираются пользователем&#10;
+на каждой стороне. Файл выбирается&#10;
+изкаталога на стороне источника&#10;
+получателем. При передаче файла&#10;
+передаваемая информация защищена&#10;
+[7,4]-кодом Хэмминга." />
+   </children>
+</AnchorPane>

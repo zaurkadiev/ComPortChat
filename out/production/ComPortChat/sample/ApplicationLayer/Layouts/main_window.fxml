@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="430.0" prefWidth="540.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.ApplicationLayer.Controllers.MainWindowController">
+   <children>
+      <MenuBar prefHeight="29.0" prefWidth="600.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+        <menus>
+          <Menu mnemonicParsing="false" text="Приложение">
+              <items>
+                  <MenuItem fx:id="mainMenuBarApplicationMenuItemSettings" mnemonicParsing="false" text="Настройки" />
+              </items>
+              <items>
+                  <MenuItem fx:id="mainMenuBarApplicationMenuItemAbout" mnemonicParsing="false" text="О приложении" />
+              </items>
+              <items>
+                  <MenuItem fx:id="mainMenuBarApplicationMenuItemDevelopers" mnemonicParsing="false" text="Разработчики" />
+              </items>
+              <items>
+                  <MenuItem fx:id="mainMenuBarApplicationMenuItemExit" mnemonicParsing="false" text="Выход" />
+              </items>
+          </Menu>
+        </menus>
+      </MenuBar>
+      <Button fx:id="downloadButton" layoutX="167.0" layoutY="155.0" mnemonicParsing="false" prefWidth="200.0" text="Загрузить файл с компьютера">
+      </Button>
+
+       <Button fx:id="connectButton" layoutX="167.0" layoutY="195.0" mnemonicParsing="false" prefWidth="200.0" text="Подключиться" />
+
+       <Button fx:id="disconnectButton" layoutX="167.0" layoutY="235.0" mnemonicParsing="false" prefWidth="200.0" text="Разъединить" />
+
+       <Button fx:id="exitButton" layoutX="419.0" layoutY="385.0" mnemonicParsing="false" prefWidth="80.0" text="Выход" />
+
+      <Label layoutX="97.0" layoutY="72.0" text="Загрузите файл с компьютера, используя интерфейс RC-232C" />
+      <Label layoutX="77.0" layoutY="330.0" text="Состояние соединения:" />
+      <Label layoutX="77.0" layoutY="350.0" text="COM-порт:" />
+      <Label fx:id="connectionStatus" layoutX="235.0" layoutY="330.0" text="Отключено" />
+      <Label fx:id="currentComPortNumber" layoutX="235.0" layoutY="350.0" text="Не назначено" />
+      <Separator layoutY="89.0" prefHeight="29.0" prefWidth="540.0" />
+
+      <ProgressBar fx:id="downloadProgressIndicator" layoutX="77.0" layoutY="281.0" prefHeight="18.0" prefWidth="386.0" progress="0.0" />
+   </children>
+</AnchorPane>

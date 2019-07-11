@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="300.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.ApplicationLayer.Controllers.SettingsWindowController">
+
+
+      <Button fx:id="settingsOkButton" layoutX="300.0" prefWidth="50.0" layoutY="250.0" mnemonicParsing="false" text="OK" textOverrun="CLIP" />
+
+      <ChoiceBox fx:id="settingsComPort" layoutX="200.0" layoutY="55.0" prefWidth="150.0" />
+      <ChoiceBox fx:id="settingsSpeed" layoutX="200.0" layoutY="90.0" prefWidth="150.0" />
+      <ChoiceBox fx:id="settingsParity" layoutX="200.0" layoutY="130.0" prefWidth="150.0" />
+      <ChoiceBox fx:id="settingsDataBits" layoutX="200.0" layoutY="170.0" prefWidth="150.0" />
+      <ChoiceBox fx:id="settingsStopBits" layoutX="200.0" layoutY="210.0" prefWidth="150.0" />
+
+      <Label layoutX="50.0" layoutY="60.0" text="COM-порт" />
+      <Label layoutX="50.0" layoutY="100.0" text="Скорость" />
+      <Label layoutX="50.0" layoutY="140.0" text="Четность" />
+      <Label layoutX="50.0" layoutY="180.0" text="Биты данных" />
+      <Label layoutX="50.0" layoutY="220.0" text="Стоп биты" />
+
+      <Label layoutX="50.0" layoutY="20.0" text="Настройка COM-порта" />
+
+</AnchorPane>

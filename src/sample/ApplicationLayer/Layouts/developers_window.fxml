@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="25.0" layoutY="25.0"
+             text="Разработчики приложения &#10;студенты группы ИУ5-61:&#10;&#10;- Князева А.А.&#10;- Даров Н.И.&#10;- Кадиев З.Д.&#10;&#10;2016 г." />
+   </children>
+</AnchorPane>
